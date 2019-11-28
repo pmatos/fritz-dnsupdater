@@ -24,5 +24,6 @@
                #:servlet-regexp #rx""
                #:command-line? #false
                #:launch-browser? #false
+               #:listen-ip #false
                #:file-not-found-responder not-found
                #:port 9001)
