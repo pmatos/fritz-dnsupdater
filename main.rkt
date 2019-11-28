@@ -8,6 +8,7 @@
 ;; ---------------------------------------------------------------------------------------------------
 
 (define (not-found req)
+  (printf "not found: ~a~n" req)
   (respond #:code 404))
 
 (define (dns-update req domain ipaddr)
